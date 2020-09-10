@@ -114,6 +114,5 @@ public abstract class Alert
 
             checkVitals.vitalsAreOk(alertSms, vitalsForPatient1);
             checkVitals.vitalsAreOk(alertAlarm, vitalsForPatient2);
-            Console.ReadKey();
         }
     }
